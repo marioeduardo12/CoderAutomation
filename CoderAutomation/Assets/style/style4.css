@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.linha-1 {
+    width: 99%;
+    margin: 0 .5%;
+    border: .1px solid #2c2929a9;
+}
+
+.header-container {
+    display: grid;
+    padding: 0 3em;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+
+.header-link {
+    justify-self: end;
+}
+
+.header-links {
+    margin-left: 5em;
+    font-size: 1.1em;
+    color: black;
+    text-decoration: none;
+    border: 2px black solid;
+    font-weight: 600;
+    padding: .7em;
+    border-radius: 30px;
+}
+
+.azul {
+    border: none;
+    padding: .7em 2em;
+    background-color: #0B7ED1;
+    color: #FFF0F0;
+}
+
+/*INÍCIO CORPO*/
+
+.navbar {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.item1 {
+    justify-self: center;
+}
+
+.item2 {
+    justify-self: end;
+    margin-right: 3em;
+}
+
+.link-nav {
+    text-decoration: none;
+    color: black;
+    font-size: 1.055em;
+    margin-right: 1em;
+}
+
+.link-img {
+    width: 1.45em;
+}
+
+.borda {
+    padding-right: 1em;
+    border-right: 2px #2c2929a9 solid;
+}
+
+.banner {
+    background: url(/Assets/banner/banner-5.png) no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    height: 30em;
+    margin-bottom: 5em;
+}
+
+.banner-title {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.banner-desc {
+    margin-bottom: 1em;
+}
+
+.contato-container {
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    margin-bottom: 3em;
+}
+
+.contato-title {
+    margin-bottom: 2em;
+    border-bottom: 1px solid black;
+    width: 100%;
+    text-align: center;
+}
+
+.input-contato {
+    width: 100%;
+    margin-bottom: 2em;
+    padding: 1em;
+    background-color: #D9D9D9;
+    border: none;
+}
+
+.contato-content {
+    display: grid;
+    justify-items: center;
+}
+
+#btn-contato {
+    padding: 1em 3em;
+    border: none;
+    background-color: #D9D9D9;
+    border-radius: 15px;
+    margin-bottom: 3em;
+}
+
+/*Corpo FIM*/
+
+.footer-container {
+    padding: 3em;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    background-color: black;
+}
+
+.footer-content1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+
+.footer-logo {
+    justify-self: end;
+}
+
+.footer-images {
+    margin-bottom: 2em;
+    width: 50%;
+    text-align: center;
+}
+
+.footer-img {
+    margin-right: 1em;
+}
+
+.footer-links {    
+    display: grid;
+    width: 50%;
+    justify-items: start;
+}
+
+.footer-link {
+    width: 50%;
+    display: grid;
+    grid-template-areas: 
+    'sobre ajuda assine'
+    'trabalhe trabalhe trabalhe';
+    justify-items: center;
+}
+
+.link1 {
+    grid-area: sobre;
+}
+
+.link2 {
+    grid-area: ajuda;
+}
+
+.link3 {
+    grid-area: assine;
+}
+
+.link4 {
+    grid-area: trabalhe;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.footer-content2 {
+    margin-top: 2em;
+    color: white;
+    font-weight: 600;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.termos {
+    justify-self: end;
+}
